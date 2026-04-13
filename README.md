@@ -25,21 +25,21 @@ A full-stack task management application built with Spring Boot and React, featu
 
 ## 🧱 Tech Stack
 
-| Layer | Technology |
-|-------|------------|
-| Backend | Java 21 + Spring Boot 4.0.5 |
-| Database | H2 In-Memory |
-| Security | Spring Security + OAuth2 |
-| Frontend | React 18 |
-| Build Tool | Gradle |
+| Layer      |          Technology          |
+|------------|------------------------------|
+| Backend    | Java 21 + Spring Boot 4.0.5  |
+| Database   | H2 In-Memory                 |
+| Security   | Spring Security + OAuth2     |
+| Frontend   | React 18                     |
+| Build Tool | Gradle                       |
 
 ---
 
 ## 📁 Project Structure
 
-```
+~~~
 taskmanager/
-├── backend/                          ← Spring Boot
+├── backend/
 │   ├── src/
 │   │   └── main/
 │   │       ├── java/com/taskmanager/taskmanager/
@@ -57,15 +57,12 @@ taskmanager/
 │   │       └── resources/
 │   │           └── application.yaml.example
 │   └── build.gradle
-└── frontend/                         ← React
+└── frontend/
     ├── src/
     │   ├── App.js
     │   └── App.css
     └── package.json
-```
-
----
-
+~~~
 ## ⚙️ Local Setup
 
 ### Prerequisites
